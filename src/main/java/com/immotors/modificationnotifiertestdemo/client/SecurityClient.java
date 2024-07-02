@@ -18,6 +18,7 @@ public class SecurityClient {
     @Autowired
     private RestTemplate restTemplate;
 
+
     /**
      * 根据 userId 查询用户
      * @ApiPath [{user, /user/query, GET}, {user, /user/commit}]
