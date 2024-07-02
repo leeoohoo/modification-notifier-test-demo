@@ -1,0 +1,4 @@
+scan:
+  relation:
+    - class: org.springframework.web.client.RestTemplate
+      methods: ["exchange","postForEntity"]
